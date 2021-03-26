@@ -1,0 +1,8 @@
+{
+  "buttons": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "signup": "Sign up",
+    "restore": "Restore password"
+  }
+}

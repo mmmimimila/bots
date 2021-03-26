@@ -1,0 +1,227 @@
+{
+  "billing": {
+    "done": "Подтвердить"
+  },
+  "cabinetSidebar": {
+    "title": "КАБИНЕТ",
+    "profile": "Профиль",
+    "users": "Пользователи",
+    "dev": "ДЕВ ПАНЕЛЬ",
+    "dashboard": "Дэшборд",
+    "posts": "Посты",
+    "offers": "Предложения",
+    "offresAll": "Все предложения",
+    "offerCreate": "Создать новое",
+    "devSecond": "ДЕВ ПАНЕЛЬ 2",
+    "guidelines": "Гайдлайны",
+    "comments": "Комментарии",
+    "admin": "АДМИН ПАНЕЛЬ"
+  },
+  "changeEmail": {
+    "errors": {
+      "emailNotChanged": "Введите новый email, который отличается от Вашего текущего",
+      "emailExist": "Этот email уже занят"
+    }
+  },
+  "common": {
+    "edit": "Редактировать",
+    "description": "Описание",
+    "refresh": "Обновить",
+    "cancel": "Отменить",
+    "confirm": "Подтвердить",
+    "join": "Вступить",
+    "leave": "Выйти",
+    "create": "Создать",
+    "save": "Сохранить",
+    "englishOnly": "Используйте только латинские буквы",
+    "invites": "Список приглашенных",
+    "invite": "Пригласить",
+    "admin": "Админ панель",
+    "success": "Успех",
+    "submit": "Отправить",
+    "no": "Нет",
+    "error": "Ошибка",
+    "yes": "Да"
+  },
+  "error": {
+    "emptyField": "Поле обязательно для заполнения"
+  },
+  "format": {
+    "dateShort": "DD.MM.YY",
+    "date": "DD.MM.YYYY",
+    "dateTime": "DD.MM.YYYY HH:mm",
+    "time": "HH:mm"
+  },
+  "locales": {
+    "ru": "Русский",
+    "en": "Английский",
+    "es": "Испанский"
+  },
+  "lskComponents": {
+    "filesUploaderButton": "Удалить файл",
+    "treePickerModalTrigger": "Открыть модалку",
+    "fullScreenLoader": {
+      "loading": "Загрузка..."
+    },
+    "filesCount": "Загружено файлов ({{- count}})"
+  },
+  "lskList": {
+    "bodyLoadingButton": "Загрузка",
+    "bodyLoadMoreButton": "Загрузить еще",
+    "emptyDataTitle": "Нет данных",
+    "emptyDataErrorOne": "Не удалось автоматически загрузить данные.",
+    "emptyDataErrorTwo": "Возможно нужно перезагрузить страницу",
+    "emptyDataErrorThree": "По вашим критериям ничего не нашлось",
+    "emptyDataErrorFour": "По вашим критериям ничего не нашлось, перейдите на первую страницу",
+    "emptyDataResetButton": "Сбросить фильтры",
+    "emptyDataToFirstPage": "На первую страницу",
+    "filterButton": "Фильтр",
+    "resetFilterButton": "Сбросить все фильтры",
+    "downloadButton": "Скачать XLSX",
+    "loadMoreButton": "Загрузить еще",
+    "paginatorShow": "Показывать",
+    "searchPlaceholder": "Поиск"
+  },
+  "lskLogin": {
+    "header": "Войдите для продолжения",
+    "welcomeHeader": "Добро пожаловать, зайдите в аккаунт используя свои детали ",
+    "checkbox": "Запомнить меня",
+    "signupText": "Все еще нет аккауна?",
+    "signup": "Зарегистрироваться",
+    "resetPasswordText": "Забыли пароль? ",
+    "resetPassword": "Сбросить пароль",
+    "userNamePlaceholder": "Имя пользователя",
+    "passwordPlaceholder": "Пароль"
+  },
+  "notification": {
+    "menu": {
+      "tasks": "Задачи ({{-count}})",
+      "messages": "Сообщения ({{-count}})",
+      "notify": "Уведомления ({{-count}})"
+    }
+  },
+  "notifications": {
+    "default": {
+      "error": "Ошибка",
+      "warning": "Внимание",
+      "info": "Информация",
+      "success": "Успешно"
+    }
+  },
+  "treePicker": {
+    "tags": "Поиск по тэгам",
+    "cancel": "Очистить"
+  },
+  "upload": {
+    "buttonImage": "Загрузить изображение",
+    "placeholderImage": "Переместите изображение в эту область",
+    "infoImage": "Формат .png или .jpg. 500x500 px. Максимальный размер 5 МБ. ",
+    "infoFiles": "Сюда можно загрузить дополнительные файлы, связанные с мероприятием",
+    "buttonFiles": "Загрузить файлы"
+  },
+  "pages": {
+    "cabinetUsers": {
+      "title": "Пользователи"
+    },
+    "cabinetUser": {
+      "title": "Пользователь"
+    },
+    "auth": {
+      "title": "Авторизация"
+    },
+    "authSignup": {
+      "title": "Регистрация"
+    },
+    "authLogin": {
+      "title": "Вход"
+    },
+    "authLogout": {
+      "title": "Выход"
+    },
+    "cabinet": {
+      "title": "Кабинет"
+    },
+    "admin": {
+      "title": "Админка"
+    },
+    "cabinetSettings": {
+      "title": "Настройки пользователя"
+    },
+    "users": {
+      "title": "Пользователи"
+    },
+    "botsMessages": {
+      "title": "Список сообщений"
+    }
+  },
+  "auth": {
+    "authForm": {
+      "email": "Почта",
+      "password": "Пароль",
+      "name": "Имя"
+    },
+    "authFooter": {
+      "signup": "У вас еще нет аккаунта?",
+      "login": "Уже есть аккаунт?",
+      "restore": "Забыли пароль?"
+    }
+  },
+  "buttons": {
+    "login": "Войти",
+    "logout": "Выйти",
+    "signup": "Зарегистрироваться",
+    "restore": "Восстановить пароль"
+  },
+  "mailer": {
+    "authCode": {
+      "title": "Подтверждение на сайте",
+      "text": "Здравствуйте, подствердите свой емейл",
+      "button": "Подтвердить"
+    },
+    "authRestorePassword": {
+      "subject": "Восстановление пароля",
+      "title": "Восстановление пароля",
+      "text": "Здравствуйте, {{me.name}}! Вы запросили изменение пароля. Мы не можем выслать старый, потому что не храним его на сайте в целях безопасности. Но с радостью создадим для Вас новый!",
+      "button": "Восстановить пароль"
+    },
+    "unsubscribeLink": "Отписаться",
+    "contactEmail": "Контактный Email"
+  },
+  "test": {
+    "test": "Тестовый тест"
+  },
+  "errors": {
+    "permit": {
+      "statusInvalid": "Неверный Permit"
+    },
+    "auth": {
+      "emailIncorrect": "Неверный Email",
+      "passwordIncorrect": "Неверный Пароль"
+    },
+    "validate": {
+      "error": "Ошибка валидации"
+    },
+    "ERROR_CODE": "Странная ошибка"
+  },
+  "admin": {
+    "delete": "Удалить",
+    "leave": "Выйти"
+  },
+  "telegramMessage": {
+    "messageId": "ID Сообщения",
+    "user": "Пользователь",
+    "chat": "Чат",
+    "text": "Сообщение",
+    "date": "Дата"
+  },
+  "form": {
+    "telegramUserId": {
+      "title": "Поиск по пользователям:",
+      "placeholder": "Введите ID пользователя"
+    },
+    "telegramChatId": {
+      "title": "Поиск по чатам:",
+      "placeholder": "Введите ID чата"
+    }
+  }
+}

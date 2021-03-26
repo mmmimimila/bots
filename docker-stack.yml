@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  app:
+    image: ${DOCKER_IMAGE}
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.labels.type==public]
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers._${DOCKER_SERVICE}.middlewares=http-to-https@file
+        - traefik.http.routers._${DOCKER_SERVICE}.rule=${VIRTUAL_HOST}
+        - traefik.http.routers.${DOCKER_SERVICE}.rule=${VIRTUAL_HOST}
+        - traefik.http.routers.${DOCKER_SERVICE}.tls=true
+        - traefik.http.routers.${DOCKER_SERVICE}.service=${DOCKER_SERVICE}
+        - traefik.http.services.${DOCKER_SERVICE}.loadbalancer.server.port=8080
+    healthcheck:
+      test: curl -f http://localhost:8080/api/healthcheck || exit 1
+    networks:
+      - proxy
+    secrets:
+      - source: env_js
+        target: /app/.env.js
+        mode: 0400
+    environment:
+      NODE_OPTIONS: --max_old_space_size=4096
+      STAGE: ${STAGE}
+      VERSION: ${VERSION}
+secrets:
+  env_js:
+     name: env_js_${DOCKER_SERVICE}_${STAGE}_${CI_COMMIT_SHORT_SHA}_${CI_JOB_ID}
+     file: ${${STAGE}_env_js}
+networks:
+  proxy:
+    external: true
+    name: proxy

@@ -1,0 +1,15 @@
+{
+  "mailer": {
+    "authCode": {
+      "title": "Verify your email",
+      "text": "Hi, verify your email",
+      "button": "Verify"
+    },
+    "authRestorePassword": {
+      "subject": "Password recovery",
+      "title": "Password recovery",
+      "text": "Hello {{me.name}}. You have requested to change your password. Unfortunately, we are unable to send you your previous password as we do not store this infornation in our system for the purposes of security. We are happy to provide you with a new password.",
+      "button": "Recover password"
+    }
+  }
+}

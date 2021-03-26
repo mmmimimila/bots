@@ -1,0 +1,161 @@
+include:
+  - project: devops/test
+    file: /lskjs/workflow.yml
+    
+build:
+  variables:
+    NODE_OPTIONS: --max_old_space_size=8000
+
+.deploy-dev:
+  variables:
+    VIRTUAL_HOST: Host(`dev.lskjs.ru`)
+    DOCKER_SERVICE: botkit_dev
+  environment:
+    name: dev
+    url: https://dev.lskjs.ru
+
+.deploy-prod:
+  variables:
+    VIRTUAL_HOST: Host(`lskjs.ru`)
+    DOCKER_SERVICE: botkit_prod
+  environment:
+    name: prod
+    url: https://kit.lskjs.ru
+
+# Songs bot
+
+.deploy-songs:
+  variables:
+    VIRTUAL_HOST: Host(`songs.lskjs.ru`)
+    DOCKER_SERVICE: botkit_songs
+  environment:
+    name: songs
+    url: https://songs.lskjs.ru
+
+deploy-songs-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-songs
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-songs:
+  extends: 
+    - .deploy-prod
+    - .deploy-songs
+    - .deploy-prod-rule
+
+# WakeUp bot
+
+.deploy-wakeup:
+  variables:
+    VIRTUAL_HOST: Host(`wakeup.lskjs.ru`)
+    DOCKER_SERVICE: botkit_wakeup
+  environment:
+    name: wakeup
+    url: https://wakeup.lskjs.ru
+
+deploy-wakeup-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-wakeup
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-wakeup:
+  extends: 
+    - .deploy-prod
+    - .deploy-wakeup
+    - .deploy-prod-rule
+
+# Rasputin bot
+
+.deploy-rasputin:
+  variables:
+    VIRTUAL_HOST: Host(`rasputin.lskjs.ru`)
+    DOCKER_SERVICE: botkit_rasputin
+  environment:
+    name: rasputin
+    url: https://rasputin.lskjs.ru
+
+deploy-rasputin-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-rasputin
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-rasputin:
+  extends: 
+    - .deploy-prod
+    - .deploy-rasputin
+    - .deploy-prod-rule
+
+# Downloader bot
+
+.deploy-downloader:
+  variables:
+    VIRTUAL_HOST: Host(`downloader.lskjs.ru`)
+    DOCKER_SERVICE: botkit_downloader
+  environment:
+    name: downloader
+    url: https://downloader.lskjs.ru
+
+deploy-downloader-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-downloader
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-downloader:
+  extends: 
+    - .deploy-prod
+    - .deploy-downloader
+    - .deploy-prod-rule
+
+# Isuvorov bot
+
+.deploy-isuvorov:
+  variables:
+    VIRTUAL_HOST: Host(`isuvorov.lskjs.ru`)
+    DOCKER_SERVICE: botkit_isuvorov
+  environment:
+    name: isuvorov
+    url: https://isuvorov.lskjs.ru
+
+deploy-isuvorov-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-isuvorov
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-isuvorov:
+  extends: 
+    - .deploy-prod
+    - .deploy-isuvorov
+    - .deploy-prod-rule
+
+# Bratishka bot
+
+.deploy-bratishka:
+  variables:
+    VIRTUAL_HOST: Host(`bratishkabot.ru`)
+    DOCKER_SERVICE: botkit_bratishka
+  environment:
+    name: bratishka
+    url: https://bratishkabot.ru
+
+deploy-bratishka-manual:
+  extends: 
+    - .deploy-prod
+    - .deploy-bratishka
+    - .deploy-prod-manual-rule
+  when: manual
+
+deploy-bratishka:
+  extends: 
+    - .deploy-prod
+    - .deploy-bratishka
+    - .deploy-prod-rule

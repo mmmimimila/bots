@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "cabinetUsers": {
+      "title": "Пользователи"
+    },
+    "cabinetUser": {
+      "title": "Пользователь"
+    },
+    "auth": {
+      "title": "Авторизация"
+    },
+    "authSignup": {
+      "title": "Регистрация"
+    },
+    "authLogin": {
+      "title": "Вход"
+    },
+    "authLogout": {
+      "title": "Выход"
+    },
+    "cabinet": {
+      "title": "Кабинет"
+    },
+    "admin": {
+      "title": "Админка"
+    },
+    "cabinetSettings": {
+      "title": "Настройки пользователя"
+    }
+  }
+}

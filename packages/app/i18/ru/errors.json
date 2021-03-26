@@ -1,0 +1,15 @@
+{
+  "errors": {
+    "permit": {
+      "statusInvalid": "Неверный Permit"
+    },
+    "auth": {
+      "emailIncorrect": "Неверный Email",
+      "passwordIncorrect": "Неверный Пароль"
+    },
+    "validate": {
+      "error": "Ошибка валидации"
+    },
+    "ERROR_CODE": "Странная ошибка"
+  }
+}

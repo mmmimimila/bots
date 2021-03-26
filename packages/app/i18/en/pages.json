@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "cabinetUsers": {
+      "title": "Users"
+    },
+    "cabinetUser": {
+      "title": "User"
+    },
+    "auth": {
+      "title": "Auth"
+    },
+    "authSignup": {
+      "title": "Sign up"
+    },
+    "authLogin": {
+      "title": "Sign in"
+    },
+    "authLogout": {
+      "title": "Sign out"
+    },
+    "cabinet": {
+      "title": "Cabinet"
+    },
+    "admin": {
+      "title": "Admin"
+    },
+    "cabinetSettings": {
+      "title": "User settings"
+    }
+  }
+}

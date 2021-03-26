@@ -1,0 +1,226 @@
+{
+  "billing": {
+    "done": "Done"
+  },
+  "cabinetSidebar": {
+    "title": "OFFICE",
+    "profile": "Profile",
+    "users": "Users",
+    "dev": "DEV PANEL",
+    "dashboard": "Dashboard",
+    "posts": "Posts",
+    "offers": "Offers",
+    "offresAll": "All offers",
+    "offerCreate": "Create new",
+    "devSecond": "DEV PANEL 2",
+    "guidelines": "Guidelines",
+    "comments": "Comments",
+    "admin": "ADMIN PANEL"
+  },
+  "changeEmail": {
+    "errors": {
+      "emailNotChanged": "Enter a new email that is different from your current email address",
+      "emailExist": "This email is already taken"
+    }
+  },
+  "common": {
+    "edit": "Edit",
+    "description": "Description",
+    "refresh": "Refresh",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "join": "Join",
+    "leave": "Leave",
+    "create": "Create",
+    "save": "Save",
+    "englishOnly": "Please use Latin letters only",
+    "invites": "Guest list",
+    "invite": "Invite",
+    "admin": "Admin",
+    "success": "Success",
+    "submit": "Sent",
+    "no": "No",
+    "error": "Error",
+    "yes": "Yes"
+  },
+  "error": {
+    "emptyField": "Must be completed "
+  },
+  "format": {
+    "dateShort": "DD.MMM.YY",
+    "date": "DD.MM.YYYY",
+    "dateTime": "DD.MM.YYYY HH:mm",
+    "time": "HH:mm"
+  },
+  "locales": {
+    "ru": "Russian",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "lskComponents": {
+    "filesUploaderButton": "Delete file",
+    "treePickerModalTrigger": "Open modal",
+    "fullScreenLoader": {
+      "loading": "Loading..."
+    },
+    "filesCount": "Files uploaded ({{- count}})"
+  },
+  "lskList": {
+    "bodyLoadingButton": "Loading",
+    "bodyLoadMoreButton": "Load more",
+    "emptyDataTitle": "No data",
+    "emptyDataErrorOne": "Failed to automatically load data.",
+    "emptyDataErrorTwo": "You may need to reload the page.",
+    "emptyDataErrorThree": "Nothing found",
+    "emptyDataErrorFour": "Nothing was found by your criteria, go to the first page.",
+    "emptyDataResetButton": "Reset filters",
+    "emptyDataToFirstPage": "Go to first page",
+    "filterButton": "Filter",
+    "resetFilterButton": "Reset all filters",
+    "downloadButton": "Download XLSX",
+    "loadMoreButton": "Load more",
+    "paginatorShow": "Show",
+    "searchPlaceholder": "Search"
+  },
+  "lskLogin": {
+    "header": "Login to Continue",
+    "welcomeHeader": "Welcome back, please enter you account details",
+    "checkbox": "Remember me",
+    "signupText": "Don't have an account yet?",
+    "signup": "Sign up",
+    "resetPasswordText": "Forgot your password? ",
+    "resetPassword": "Reset password",
+    "userNamePlaceholder": "Username",
+    "passwordPlaceholder": "Password"
+  },
+  "notification": {
+    "menu": {
+      "tasks": "Tasks ({{-count}})",
+      "messages": "Messages ({{-count}})",
+      "notify": "Notification ({{-count}})"
+    }
+  },
+  "notifications": {
+    "default": {
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Information",
+      "success": "Success"
+    }
+  },
+  "treePicker": {
+    "tags": "Search by tags",
+    "cancel": "Cancel"
+  },
+  "upload": {
+    "buttonImage": "Load image",
+    "placeholderImage": "Drag image here",
+    "infoImage": "Required format: .png or .jpg 500x500px. Maximum size 5 mb.",
+    "infoFiles": "Upload any files relevant to the event here",
+    "buttonFiles": "Upload"
+  },
+  "pages": {
+    "cabinetUsers": {
+      "title": "Users"
+    },
+    "cabinetUser": {
+      "title": "User"
+    },
+    "auth": {
+      "title": "Auth"
+    },
+    "authSignup": {
+      "title": "Sign up"
+    },
+    "authLogin": {
+      "title": "Sign in"
+    },
+    "authLogout": {
+      "title": "Sign out"
+    },
+    "cabinet": {
+      "title": "Cabinet"
+    },
+    "admin": {
+      "title": "Admin"
+    },
+    "cabinetSettings": {
+      "title": "User settings"
+    },
+    "users": {
+      "title": "Users"
+    },
+    "botsMessages": {
+      "title": "Messages"
+    }
+  },
+  "auth": {
+    "authForm": {
+      "email": "Email",
+      "password": "Password",
+      "name": "Name"
+    },
+    "authFooter": {
+      "signup": "Don't have an account yet?",
+      "login": "Already have an account?",
+      "restore": "Forgot your password?"
+    }
+  },
+  "buttons": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "signup": "Sign up",
+    "restore": "Restore password"
+  },
+  "mailer": {
+    "authCode": {
+      "title": "Verify your email",
+      "text": "Hi, verify your email",
+      "button": "Verify"
+    },
+    "authRestorePassword": {
+      "subject": "Password recovery",
+      "title": "Password recovery",
+      "text": "Hello {{me.name}}. You have requested to change your password. Unfortunately, we are unable to send you your previous password as we do not store this infornation in our system for the purposes of security. We are happy to provide you with a new password.",
+      "button": "Recover password"
+    },
+    "unsubscribeLink": "Unsubscribe",
+    "contactEmail": "Contact email"
+  },
+  "test": {
+    "test": "Test test"
+  },
+  "errors": {
+    "permit": {
+      "statusInvalid": "Permit status invalid"
+    },
+    "auth": {
+      "emailIncorrect": "Email Incorrect",
+      "passwordIncorrect": "Password Incorrect"
+    },
+    "validate": {
+      "error": "Validation errors"
+    },
+    "ERROR_CODE": "Strange error"
+  },
+  "admin": {
+    "delete": "Delete"
+  },
+  "telegramMessage": {
+    "messageId": "Message ID",
+    "user": "User",
+    "chat": "Chat",
+    "text": "Message",
+    "date": "Date"
+  },
+  "form": {
+    "telegramUserId": {
+      "title": "Search by User ID:",
+      "placeholder": "Fill User ID"
+    },
+    "telegramChatId": {
+      "title": "Search by Chat ID:",
+      "placeholder": "Fill Chat ID"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "errors": {
+    "permit": {
+      "statusInvalid": "Permit status invalid"
+    },
+    "auth": {
+      "emailIncorrect": "Email Incorrect",
+      "passwordIncorrect": "Password Incorrect"
+    },
+    "validate": {
+      "error": "Validation errors"
+    },
+    "ERROR_CODE": "Strange error"
+  }
+}
